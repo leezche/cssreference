@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<meta charset="utf-8"/> 
+<title>CSS Reference</title>
+<style type="text/css">
+div {
+    width:200px;
+    height:200px;
+    text-align:right;
+}
+.box1 {
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    z-index:10;
+    background-color: orange;
+}
+.box2 {
+    position:absolute;
+    top: 120px;
+    left: 120px;    
+    z-index:11;
+    background-color: yellow;
+}
+.box3 {
+    position:absolute;
+    top: 140px;
+    left: 140px;    
+    z-index:9;
+    background-color: gray;
+}
+.box4 {
+    position:absolute;
+    top: 180px;
+    left: 180px;    
+    z-index:8;
+    background-color: skyblue;
+}
+</style>
+</head>
+<body>
+<div class="box1"> z-index: 10</div>
+<div class="box2"> z-index: 11</div>
+<div class="box3"> z-index: 9</div>
+<div class="box4"> z-index: 8</div>
+</body>
+</html>

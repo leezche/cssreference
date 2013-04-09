@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>CSS Reference</title>
+<style type="text/css">
+table {
+    background-color: #eee;
+    width: 300px;
+    margin: 20px;
+}
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.t1 {
+    empty-cells: show;
+}
+.t2 {
+    empty-cells: hide;
+}
+
+</style>
+</head>
+<body>
+<table class="t1">
+    <caption>empty-cells: show</caption>
+    <tr>
+        <td>cell 1</td><td>cell 2</td><td>cell 3</td>
+    </tr>    
+    <tr>
+        <td>cell 4</td><td>cell 5</td><td> </td>
+    </tr>    
+</table>    
+
+<table class="t2">
+    <caption>empty-cells: show</caption>
+    <tr>
+        <td>cell 1</td><td>cell 2</td><td>cell 3</td>
+    </tr>    
+    <tr>
+        <td>cell 4</td><td>cell 5</td><td> </td>
+    </tr>    
+</table>    
+         
+</body>
+</html>
